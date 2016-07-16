@@ -16,7 +16,7 @@ if begin
     if type gls 1>/dev/null 2>/dev/null
       set ls gls
     else
-      set ls ls
+      set ls /bin/ls
     end
 
     set -l     param --color=always  # afaik, this isn't neccessary: set --export CLICOLOR_FORCE 1
